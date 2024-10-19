@@ -3,20 +3,10 @@ function ProductListing () {
   const [products, setProducts] = useState([]);
   const [searchTerm, setSearchTerm] = useState('');
 
-  useEffect(() => {
-    // In a real application, you would fetch this data from an API
-    const fetchProducts = async () => {
-      const response = await fetch('/products.json');
-      const data = await response.json();
-      setProducts(data);
-    };
 
     fetchProducts();
   }, []);
 
-  const filteredProducts = products.filter(product =>
-    product.name.toLowerCase().includes(searchTerm.toLowerCase())
-  );
 
   return (
     <div className="container py-5">
