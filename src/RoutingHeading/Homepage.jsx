@@ -10,6 +10,7 @@ function Homepage() {
     const backhome = () => {
         navigate("/")
     }
+    cons
     return (
         <div className="container-fluid p-0">
             {/* Header */}
