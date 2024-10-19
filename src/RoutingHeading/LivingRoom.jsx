@@ -4,8 +4,6 @@ function ProductListing () {
   const [searchTerm, setSearchTerm] = useState('');
 
 
-    fetchProducts();
-  }, []);
 
 
   return (
