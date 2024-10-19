@@ -1,0 +1,70 @@
+
+
+[
+    {
+        "id": "BR001",
+        "name": "Bed",
+        "price": 5004,
+        "image": "URL",
+        "desc": "N/A",
+        "rate": 4,
+        "brand": "Ashley",
+        "type": "LONG",
+        "offer": 5
+    },
+    {
+        "id": "BR002",
+        "name": "Bed43",
+        "price": 50022,
+        "image": "URL",
+        "desc": "N/A",
+        "rate": 5,
+        "brand": "Ashley",
+        "type": "LONG",
+        "offer": 0
+    },   
+     {
+        "id": "BR003",
+        "name": "Bed3432",
+        "price": 50045,
+        "image": "URL",
+        "desc": "N/A",
+        "rate": 4,
+        "brand": "Aaron",
+        "type": "LONG",
+        "offer": 5
+    },
+    {
+        "id": "BR004",
+        "name": "Bed3432",
+        "price": 503402,
+        "image": "URL",
+        "desc": "N/A",
+        "rate": 5,
+        "brand": "Aaron",
+        "type": "LONG",
+        "offer": 0
+    },
+    {
+        "id": "BR005",
+        "name": "Bed3432352345",
+        "price": 53400,
+        "image": "URL",
+        "desc": "N/A",
+        "rate": 4,
+        "brand": "Row",
+        "type": "LONG",
+        "offer": 5
+    },
+    {
+        "id": "BR006",
+        "name": "Bed2325235",
+        "price": 503432502,
+        "image": "URL",
+        "desc": "N/A",
+        "rate": 5,
+        "brand": "Row",
+        "type": "LONG",
+        "offer": 0
+    }
+]

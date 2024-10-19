@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import data from '../data/LivingRoomData.json'
 function ProductListing () {
   const [products, setProducts] = useState([]);
   const [searchTerm, setSearchTerm] = useState('');
@@ -23,14 +24,14 @@ function ProductListing () {
       <div className="row mb-3">
         <div className="col-12">
           <p className="text-muted">
-            Showing all {filteredProducts.length} results
+            Showing all {""} results
           </p>
         </div>
       </div>
       <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
-        {filteredProducts.map((product) => (
+        {data.map((product) => (
           <div key={product.id} className="col">
-            <div className="card h-100 border-0">
+            <div className="card h-100 border-1">
               <img
                 src={product.image}
                 className="card-img-top"

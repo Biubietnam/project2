@@ -1,0 +1,70 @@
+
+
+[
+    {
+        "id": "HO001",
+        "name": "Home",
+        "price": 5004,
+        "image": "URL",
+        "desc": "N/A",
+        "rate": 4,
+        "brand": "Ashley",
+        "type": "LONG",
+        "offer": 5
+    },
+    {
+        "id": "HO002",
+        "name": "Home2",
+        "price": 50022,
+        "image": "URL",
+        "desc": "N/A",
+        "rate": 5,
+        "brand": "Ashley",
+        "type": "LONG",
+        "offer": 0
+    },   
+     {
+        "id": "HO003",
+        "name": "Home324324",
+        "price": 50045,
+        "image": "URL",
+        "desc": "N/A",
+        "rate": 4,
+        "brand": "Aaron",
+        "type": "LONG",
+        "offer": 5
+    },
+    {
+        "id": "HO004",
+        "name": "Home2234234",
+        "price": 503402,
+        "image": "URL",
+        "desc": "N/A",
+        "rate": 5,
+        "brand": "Aaron",
+        "type": "LONG",
+        "offer": 0
+    },
+    {
+        "id": "HO005",
+        "name": "Home34234234",
+        "price": 53400,
+        "image": "URL",
+        "desc": "N/A",
+        "rate": 4,
+        "brand": "Row",
+        "type": "LONG",
+        "offer": 5
+    },
+    {
+        "id": "HO006",
+        "name": "Home2325235",
+        "price": 503432502,
+        "image": "URL",
+        "desc": "N/A",
+        "rate": 5,
+        "brand": "Row",
+        "type": "LONG",
+        "offer": 0
+    }
+]

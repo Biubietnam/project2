@@ -1,0 +1,70 @@
+
+
+[
+    {
+        "id": "LR001",
+        "name": "Sofa",
+        "price": 5004,
+        "image": "URL",
+        "desc": "N/A",
+        "rate": 4,
+        "brand": "Ashley",
+        "type": "LONG",
+        "offer": 5
+    },
+    {
+        "id": "LR002",
+        "name": "Sofa2",
+        "price": 50022,
+        "image": "URL",
+        "desc": "N/A",
+        "rate": 5,
+        "brand": "Ashley",
+        "type": "LONG",
+        "offer": 0
+    },   
+     {
+        "id": "LR003",
+        "name": "Sofa324324",
+        "price": 50045,
+        "image": "URL",
+        "desc": "N/A",
+        "rate": 4,
+        "brand": "Aaron",
+        "type": "LONG",
+        "offer": 5
+    },
+    {
+        "id": "LR004",
+        "name": "Sofa2234234",
+        "price": 503402,
+        "image": "URL",
+        "desc": "N/A",
+        "rate": 5,
+        "brand": "Aaron",
+        "type": "LONG",
+        "offer": 0
+    },
+    {
+        "id": "LR005",
+        "name": "Sofa34234234",
+        "price": 53400,
+        "image": "URL",
+        "desc": "N/A",
+        "rate": 4,
+        "brand": "Row",
+        "type": "LONG",
+        "offer": 5
+    },
+    {
+        "id": "LR006",
+        "name": "Sofa2325235",
+        "price": 503432502,
+        "image": "https://t0.gstatic.com/licensed-image?q=tbn:ANd9GcQz7jMeVgCJK9yVFxrc44Xa1fiMh00MHom49sBAMWDKo1C_n8enIXT2SkOsxRh-4ZT8SRf3UiL2Th2QzltSU2A",
+        "desc": "N/A",
+        "rate": 5,
+        "brand": "Row",
+        "type": "LONG",
+        "offer": 0
+    }
+]

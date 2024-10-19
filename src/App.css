@@ -36,10 +36,69 @@
     transform: rotate(360deg);
   }
 }
-
 .storediv:hover{
   cursor: pointer !important;
 }
 .timer{
   width: 200% !important;
+}
+.selection:hover{
+  cursor: pointer;
+}
+.card img{
+  opacity: 0.3;
+  transition: opacity 2s ease;
+}
+.card img:hover{
+  opacity: 1;
+}
+.card {
+  transition: transform 0.3s ease, z-index 0s 0.3s; /* Wait 0.3s before transitioning z-index */
+  z-index: 2;
+}
+
+.card:hover {
+  transform: scale(1.275);
+  z-index: 100; /* Immediately change z-index on hover */
+  transition: transform 0.3s ease, z-index 0s; /* Reset z-index transition on hover */
+}
+.img-container{
+  height: 30vh;
+  width: 50vw;
+  margin: 0 auto;
+  margin-top: 1vw;
+}
+.img-container div{
+  height: 100%;
+}
+.img-container img{
+  height: 100%;
+  object-fit: cover;
+  
+}
+
+.carousel-control-prev{
+  height: 30vh;
+  margin-left: 24.45vw;
+  background-color: gray;
+  opacity: 0 !important;
+  background-image: linear-gradient(to right,black, gray) !important;
+  transition: opacity 0.3s linear !important;
+  
+}
+.carousel-control-next
+{
+  height: 30vh;
+  margin-right: 24.45vw;
+  opacity: 0 !important;
+  background-color: gray;
+  background-image: linear-gradient(to left,black, gray) !important;
+  transition: opacity 0.3s linear !important;
+}
+.carousel-control-prev span{
+  color: black !important;
+}
+.carousel-control-next:hover,
+.carousel-control-prev:hover{
+  opacity: 0.2 !important;
 }
