@@ -1,11 +1,34 @@
-import React, { useState, useEffect } from 'react';
-import data from '../data/LivingRoomData.json'
-function ProductListing () {
-  const [products, setProducts] = useState([]);
+import React, { useState } from 'react';
+import data from '../data/LivingRoomData.json';
+import { useNavigate } from 'react-router-dom';
+import PopupWindow from './popup';
+
+function ProductListing() {
+  const [products] = useState(data);
   const [searchTerm, setSearchTerm] = useState('');
+  const [showPopup, setShowPopup] = useState(false);
+  const [selectedProduct, setSelectedProduct] = useState(null);
 
+  const url = process.env.PUBLIC_URL;
+  const hotlogoicon = url + '/img/hotoffericon.png'
+  const getproduct = (product) => {
+    setSelectedProduct(product);
+    setShowPopup(true);
+  };
 
+  const closePopup = () => {
+    setShowPopup(false);
+  };
 
+  // This function filters products by name based on the search term
+  const fnSearch = () => {
+    return products.filter((product) =>
+      product.name.toLowerCase().startsWith(searchTerm.toLowerCase())
+    );
+  };
+
+  // Get the filtered products
+  const filteredProducts = fnSearch();
 
   return (
     <div className="container py-5">
@@ -24,28 +47,63 @@ function ProductListing () {
       <div className="row mb-3">
         <div className="col-12">
           <p className="text-muted">
-            Showing all {""} results
+            Showing {filteredProducts.length} result
+            {filteredProducts.length !== 1 ? 's' : ''}
           </p>
         </div>
       </div>
       <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
-        {data.map((product) => (
-          <div key={product.id} className="col">
-            <div className="card h-100 border-1">
+        {filteredProducts.map((product) => (
+          <div className="col" key={product.id} >
+            <div className="card h-100 border-1 productbox">
+            {product.offer ? (
               <img
-                src={product.image}
+                src={hotlogoicon}
+                alt="Hot Offer"
+                className="hot-logo-icon"
+              />
+            ) : null}
+              <img
+                src={product.image[0]}
                 className="card-img-top"
                 alt={product.name}
               />
               <div className="card-body text-center">
                 <h5 className="card-title">{product.name}</h5>
+                <p
+                  className="card-text"
+                  style={{
+                    textDecoration: product.offer ? 'line-through' : 'none',
+                  }}
+                >
+                  {product.price}$
+                </p>
+                {product.offer ? (
+                  <p className="card-text text-success">
+                    {(product.price * (1 - product.offer / 100)).toFixed(2)}$
+                  </p>
+                ) : null}
+
+                <button
+                  className="btn btn-primary"
+                  onClick={() => getproduct(product)}
+                >
+                  Detail
+                </button>
               </div>
             </div>
           </div>
         ))}
       </div>
+
+      {showPopup && (
+        <PopupWindow
+          product={selectedProduct}
+          closePopup={closePopup}
+        />
+      )}
     </div>
   );
-};
+}
 
 export default ProductListing;

@@ -29,9 +29,12 @@ function Header() {
                                                 All furniture
                                             </a>
                                             <ul className="dropdown-menu">
-                                                <li><a className="dropdown-item" href="/livingroom">Livingroom</a></li>
+                                                <li><a className="dropdown-item" href="/livingroom">Living room</a></li>
                                                 <li><a className="dropdown-item" href="#">Bedroom</a></li>
-                                                <li><a className="dropdown-item" href="#">Diningroom</a></li>
+                                                <li><a className="dropdown-item" href="#">Dining room</a></li>
+                                                <li><a className="dropdown-item" href="#">Outdoor</a></li>
+                                                <li><a className="dropdown-item" href="#">Home Office</a></li>
+
                                             </ul>
                                         </li>
                                         <li className="nav-item"><a className="nav-link" href="/gallery">Gallery</a></li>

@@ -1,11 +1,34 @@
-import React from 'react';
+import React,{ useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 
 function Footer() {
 
     const navigate = useNavigate();
     const url = process.env.PUBLIC_URL;
-
+    const [dateTime, setDateTime] = useState(new Date());
+    const [location, setLocation] = useState({ lat: null, long: null });
+  
+    useEffect(() => {
+      // Update time every second
+      const interval = setInterval(() => {
+        setDateTime(new Date());
+      }, 1000);
+  
+      // Get user's location using Geolocation API
+      if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition((position) => {
+          setLocation({
+            lat: position.coords.latitude,
+            long: position.coords.longitude,
+          });
+        });
+      } else {
+        alert('Geolocation is not supported by this browser.');
+      }
+  
+      return () => clearInterval(interval);
+    }, []);
+  
     return (
         <div className="container-fluid p-0">
             {/* Footer */}
@@ -34,7 +57,7 @@ function Footer() {
                             <p>FACEBOOK INSTAGRAM YOUTUBE</p>
                         </div>
                         <div className="bg-info text-center py-2 timer">
-                            <p className="mb-0">10/5/2024, 3:43:40 PM | Location: Vietnam</p>
+                        {dateTime.toLocaleString()} | Location: {location.lat}, {location.long}
                         </div>
                     </div>
                 </div>

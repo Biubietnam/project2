@@ -1,15 +1,18 @@
 // import storelogo from '../img/storelogo.png'
 
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 function Homepage() {
-
     const url = process.env.PUBLIC_URL;
     const LivingRoom = url + '/img/livingroom.jpg'
     const Office = url + '/img/homeoffice.png'
     const DiningRoom = url + '/img/diningroom.png'
     const BedRoom = url + "/img/bedroom.jpg"
     const Outdoor = url + "/img/outdoor.png"
-
+    const navigate = useNavigate();
+    const tolivingpage= ()=> {
+        navigate("/livingroom")
+    }
     return (
         <div className="container-fluid p-0">
 
@@ -42,11 +45,11 @@ function Homepage() {
             {/* Furniture Categories */}
             <div className="container my-5">
                 <div className="row g-4">
-                    <div className="col-md-9 selection">
+                    <div className="col-md-9 selection" onClick={tolivingpage}>
                         <div className="card">
-                            <img src={LivingRoom} className="card-img-top" alt="Livingroom" />
+                            <img src={LivingRoom} className="card-img-top" alt="Livingroom" draggable="false" />
                             <div className="card-body">
-                                <h5 className="card-title">Livingroom</h5>
+                                <h5 className="card-title">Living Room</h5>
                             </div>
                         </div>
                     </div>
@@ -54,7 +57,7 @@ function Homepage() {
                         <div className="card">
                             <img src={Office} className="card-img-top" alt="Homeoffice" />
                             <div className="card-body">
-                                <h5 className="card-title">Homeoffice</h5>
+                                <h5 className="card-title">Home Office</h5>
                             </div>
                         </div>
                     </div>
@@ -70,7 +73,7 @@ function Homepage() {
                         <div className="card">
                             <img src={DiningRoom} className="card-img-top" alt="Diningroom" />
                             <div className="card-body">
-                                <h5 className="card-title">Diningroom</h5>
+                                <h5 className="card-title">Dining room</h5>
                             </div>
                         </div>
                     </div>
