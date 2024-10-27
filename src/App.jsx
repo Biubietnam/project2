@@ -68,17 +68,17 @@ function App() {
       <div className="App">
         <Header />
         <Routes>
-          <Route path='/' element={<Homepage />} />
-          <Route path='/home' element={<Homepage />} />
+          <Route path='/project2' element={<Homepage />} />
+          <Route path='/project2/home' element={<Homepage />} />
           <Route path='/livingroom' element={<LivingRoom />}/>
-          <Route path='/contact' element={<ContactUs />} />
-          <Route path='/outdoor' element={<Outdoor />} />
-          <Route path='/bedroom' element={<BedRoom />} />
-          <Route path='/homeoffice' element={<Homeoffice/>}/>
-          <Route path='/diningroom' element={<DiningRoom/>}/>
-          <Route path='/about' element={<AboutUs/>}/>
-          <Route path='/faq' element={<FaqPage/>}/>
-          <Route path='gallery' element={<Gallery/>}/>
+          <Route path='/project2/contact' element={<ContactUs />} />
+          <Route path='/project2/outdoor' element={<Outdoor />} />
+          <Route path='/project2/bedroom' element={<BedRoom />} />
+          <Route path='/project2/homeoffice' element={<Homeoffice/>}/>
+          <Route path='/project2/diningroom' element={<DiningRoom/>}/>
+          <Route path='/project2/about' element={<AboutUs/>}/>
+          <Route path='/project2/faq' element={<FaqPage/>}/>
+          <Route path='/project2/gallery' element={<Gallery/>}/>
         </Routes>
         <Footer />
         <div id="counter" className='counter'>
