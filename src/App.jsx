@@ -78,7 +78,7 @@ function App() {
           <Route path='/diningroom' element={<DiningRoom/>}/>
           <Route path='/about' element={<AboutUs/>}/>
           <Route path='/faq' element={<FaqPage/>}/>
-          <Route path='gallery' element={<Gallery/>}/>
+          <Route path='/gallery' element={<Gallery/>}/>
         </Routes>
         <Footer />
         <div id="counter" className='counter'>
