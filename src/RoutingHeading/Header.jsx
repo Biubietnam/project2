@@ -6,7 +6,7 @@ function Header() {
     const url = process.env.PUBLIC_URL;
     const storelogo = url +'/img/storelogo.png'
     const backhome = () => {
-        navigate("/")
+        navigate("/project2")
     }
 
     return (
