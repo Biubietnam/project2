@@ -22,9 +22,9 @@ Visit our website: [Click Me](https://biubietnam.github.io/project2/#/)
 
 ## Documentation
 Access our documents at [Project Documents]([https://github.com/Nguyenminhthuc12032001/IncredibleBridges/tree/master/Document](https://github.com/Biubietnam/project2/tree/main/docs)):
-- **Status Report**: `eProject_Status_Report_Incredible_Bridges.xlsx`
-- **Project Report**: `eProject Report-Incredible Bridges-Group 3-Class T1.2406.M1.pdf`
-- **GitHub Guide**: `eProject Git Hub Guide-Group 3-Incredible Bridges`
+- **Status Report**: `eProject_Status_Report.xls`
+- **Project Report**: `eProject Report -Hudson Funishing.docx`
+- **GitHub Guide**: `github guide.pdf`
 
 ## For Developer:
 
