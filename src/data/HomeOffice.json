@@ -168,3 +168,173 @@
         "offer": null
     }
 ]
+
+
+[
+    {
+        "id": "HO001-Ashley",
+        "name": "Frankwell 70' Bookcase",
+        "price": 149.99,
+        "image": [
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729613595/4_s52jpo.webp",
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729613595/5_yuifmg.webp",
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729613595/1_reznn5.webp",
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729613594/3_bk0mqg.webp",
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729613594/2_baarzg.webp"
+        ],
+        "video": "https://www.youtube.com/embed/YlsETH863vM",
+        "desc": "The Frankwell bookcase is for the geometry lover. Five fixed shelves at various angles create gorgeous negative space in your room. It’s sleek and contemporary with quality construction. You’re going to love propping up your books in style.",
+        "rate": 4.6,
+        "brand": "Ashley",
+        "type": "Bookcases",
+        "offer": 10
+    },
+    {
+        "id": "HO002-Ashley",
+        "name": "Barolli 60' Gaming Desk with Monitor Stand",
+        "price": 474.99,
+        "image": [
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729613597/5_oeknhy.webp",
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729613596/3_gtyoxd.webp",
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729613596/4_ar2thq.webp",
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729613595/1_wq8kss.webp",
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729613595/2_toko7j.webp"
+        ],
+        "video": "https://www.youtube.com/embed/wlcGt9Bj30s",
+        "desc": "Elevate your style and up your game with the ultra-cool Barolli gaming desk. Clean and contemporary, this mixed-media designer desk includes a metal frame in a gunmetal finish, topped with an engineered wood surface with replicated wood grain. Setting you up for success: a large open raceway for power cord management, a desktop monitor shelf, and an LED back light with multiple color options for an enhanced gaming experience. Along with a PC stand for easy access, this gaming desk features a custom designed headset hanger and a built-in electric can cooler with a USB plug-in.",
+        "rate": 4.7,
+        "brand": "Ashley",
+        "type": "Gaming",
+        "offer": 10
+    },
+    {
+        "id": "HO003-Ashley",
+        "name": "Lynxtyn 48' Gaming Desk with LED Lighting and Wireless and USB Charging",
+        "price": 49.99,
+        "image": [
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729613598/5_ldu1zh.webp",
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729613598/4_lbkwia.webp",
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729613597/3_pxcemc.webp",
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729613597/1_xrqaus.webp",
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729613597/2_oryrar.webp"
+        ],
+        "video": "https://www.youtube.com/embed/ekRHTwWjUv8",
+        "desc": "Ultra mod. Work smarter—and look cool doing it—with the new-age efficiency of the Lynxtyn desk. Its streamlined design is accented with a tech-inspired decorative laminate surface and PVC insert for mouse tracking. This super sleek yet fully loaded home office desk includes a raised monitor stand with LED ambient lighting, a headset hanger conveniently mounted on the side and a mesh modesty panel underneath for managing all your cords. And with an integrated cup holder, wireless Qi charger and 110V power supply with dual USB ports for charging all your devices, this desk really is designed to keep you up and running.",
+        "rate": 4.9,
+        "brand": "Ashley",
+        "type": "Gaming Desks",
+        "offer": 10
+    },
+    {
+        "id": "HO004-Roche Bobois",
+        "name": "WINCH-desk with 1 drawer",
+        "video": null,
+        "price": 4000,
+        "image": [
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729614501/5_qzmxgj.jpg",
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729614501/4_zmwqvc.jpg",
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729614501/2_zhqjfw.jpg",
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729614500/3_illfip.jpg",
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729614500/1_oodj0c.jpg"
+        ],
+        "desc": "With its solid wood structures and streamlined lines, the Winch collection is inspired by the beautiful sailing ships of the 1950s. Every detail is executed with the highest level of craftsmanship. Like a sail stretched over its masts, the desk top seems to wrap around its four legs.",
+        "rate": 4.8,
+        "brand": "Roche Bobois",
+        "type": "Desk",
+        "offer": null
+    },
+    {
+        "id": "HO005-Roche Bobois",
+        "name": "PULP-Visitor armchair",
+        "video": null,
+        "price": 1750,
+        "image": [
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729614504/4_regypt.jpg",
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729614503/5_gvu3lx.jpg",
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729614502/3_qxzzgg.jpg",
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729614502/2_xmf2c1.jpg",
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729614502/1_ziv0vt.jpg"
+        ],
+        "desc": "PULP is the first collaboration between Catalan designer Eugeni Quitllet and Roche Bobois: a collection of tables, chairs and armchairs with a biomorphic aesthetic that eschews straight lines and is complemented by refined finishes. Inspired by the living world, the collection draws on the dissociation of elements: the designer imagined each piece as a cluster of molecules! This low armchair version without a headrest blends in perfectly in the living room as well as in an office.",
+        "rate": 4.9,
+        "brand": "Roche Bobois",
+        "type": "Visitor Armchair",
+        "offer": null
+    },
+    {
+        "id": "HO006-Roche Bobois",
+        "name": "CHISTERA-DINING ARMCHAIR Lacquered shell",
+        "video": null,
+        "price": 2500,
+        "image": [
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729614505/5_lq3snt.jpg",
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729614504/4_iiihib.jpg",
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729614504/3_ldb9tw.jpg",
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729614504/2_arjgjw.jpg",
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729614503/1_obgqq0.jpg"
+        ],
+        "desc": "Designer Marcello Ziliani created Chistera as a series of variations that all feature a beautiful cast aluminium shell with either a polished or lacquered finish. The collection includes a chair and a bridge that have solid beech legs or a cast aluminium central base. The seat can be lacquered or covered with a moulded pad for even more comfort. The practical shape, the perfection of cast aluminium, and the bonus of being recyclable – these features make it an excellent piece for any space.",
+        "rate": 5,
+        "brand": "Roche Bobois",
+        "type": "Office Chairs",
+        "offer": 5
+    },
+    {
+        "id": "HO007-IKEA",
+        "name": "FRYKSÅS",
+        "price": 399,
+        "image": [
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729613622/3_qkviqo.webp",
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729613622/5_txjhou.avif",
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729613622/4_jt1jjt.avif",
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729613622/2_zu0j1p.avif",
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729613621/1_kqphcn.avif"
+        ],
+        "video": null,
+        "desc": "A place for creativity. This sturdy table withstands coffee spills and intense work. Made of natural fibre that ages beautifully and helps channel energy into your hobbies and side projects.",
+        "rate": 5,
+        "brand": "IKEA",
+        "type": "Desk",
+        "offer": null
+    },
+    {
+        "id": "HO008-IKEA",
+        "name": "TROTTEN",
+        "price": "269",
+        "image": [
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729613696/9_j50qdc.avif",
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729613678/8_tzikxk.avif",
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729613678/6_mpjnpl.avif",
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729613677/7_hiztet.avif",
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729613677/5_lrbply.avif",
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729613676/4_e52hsq.avif",
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729613676/3_dyy9au.avif",
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729613676/2_e8ugem.avif",
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729613641/1_wtl8hk.avif"
+        ],
+        "video": "https://res.cloudinary.com/dpwlgnop6/video/upload/v1729614529/TROTTEN_cab_w_sliding_doors-noticeboard_white_80x180_cm_311-2x707-8-_-_IKEA_CA_sqgdq7.webm",
+        "desc": "Changing positions from sitting to standing is good for you, and the crank handle allows you to work your arms while adjusting the height. Moving your body makes you both feel and work better.",
+        "rate": 4.6,
+        "brand": "IKEA",
+        "type": "Desk sit",
+        "offer": 5
+    },
+    {
+        "id": "HO009-IKEA",
+        "name": "TROTTEN",
+        "price": 378,
+        "image": [
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729614499/5_xoy4fo.avif",
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729614499/2_gaartv.avif",
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729614499/4_mxb9eh.avif",
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729614499/3_wvycfs.avif",
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729614498/1_pwjqu2.avif"
+        ],
+        "video": "https://res.cloudinary.com/dpwlgnop6/video/upload/v1729614506/TROTTEN_desk_sit-stand_beige-white_120x70_cm_471-4x271-2-_-_IKEA_CA_gljrwg.webm",
+        "desc": "TROTTEN double-sided cabinet with open and closed storage is accessible from both sides – perfect as a room divider. You can create a workshop space by mounting TROTTEN notice board to the cabinet.",
+        "rate": 5,
+        "brand": "IKEA",
+        "type": "Cab w sliding doors",
+        "offer": null
+    }
+]

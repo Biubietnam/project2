@@ -164,3 +164,169 @@
         "offer": null
     }
 ]
+
+
+[
+    {
+        "id": "LR001-Ashley",
+        "name": "Sectional Sofa",
+        "price": 79.99,
+        "image": [
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729614549/1_mm4nwa.webp",
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729614544/5_acfyvx.webp",
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729614543/2_z8zwuj.webp",
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729614538/3_noajgg.webp",
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729614534/4_v1oofn.webp"
+        ],
+        "video": "https://www.youtube.com/embed/6C4E43xCPWU",
+        "desc": "Whether your style is farmhouse fresh, shabby chic or country cottage, you’ll find the Bolanburg extra large TV stand perfectly in tune. Its two-tone, gently distressed finish pairs weathered oak with antiqued white for that much more quaint character. Charming elements include crossbuck adorned cabinets with glass inlays for peek-through flair. Ample adjustable shelving and cutouts for wire management nicely accommodate your media needs.",
+        "rate": 4.8,
+        "brand": "Ashley",
+        "type": "Farmhouse",
+        "offer": 10
+    },
+    {
+        "id": "LR002-Ashley",
+        "name": "Cambri 2-Piece Sectional with Chaise",
+        "price": 189.99,
+        "image": [
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729614549/4_a2hrhu.webp",
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729614546/1_fxwfad.webp",
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729614538/2_hpeij4.webp",
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729614534/3_xxl5j9.webp",
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729614534/5_ohpqwq.webp"
+        ],
+        "video": "https://www.youtube.com/embed/I_-tcFVspD4",
+        "desc": "Let it snow. Doubling your pleasure with a double chaise configuration for ultimate indulgence, the Cambri sectional in a snow-tone neutral invites you to stretch your style in an easy-elegant way. Whether your aesthetic is urban hip or suburban chic, this posh sectional is sure to look and feel right at home. Wrapped in a chunky heavyweight chenille fabric with a delightful touch, this fashion-forward sectional includes designer throw pillows for a brilliant pop of color and texture.",
+        "rate": 4.3,
+        "brand": "Ashley",
+        "type": "Sectional Sofa with Chaise",
+        "offer": 5
+    },
+    {
+        "id": "LR003-Ashley",
+        "name": "Wystfield Coffee Table with Lift Top",
+        "price": 349.99,
+        "image": [
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729614548/4_a2fsl6.webp",
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729614546/1_yappgx.webp",
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729614545/2_fp7hog.webp",
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729614544/3_ltwxqs.webp",
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729614538/5_pxebwu.webp"
+        ],
+        "video": "https://www.youtube.com/embed/0fDgihERhLQ",
+        "desc": "Double take. Sporting a two-tone finish, dual-sided lid design and expansive storage space, the Wystfield square coffee table takes the art of rustic farmhouse living to a new level. Designer touches include plank-effect styling, heavy distressing and industrial bracket hardware.",
+        "rate": 4.8,
+        "brand": "Ashley",
+        "type": "Lift-Top Coffee Table",
+        "offer": 8
+    },
+    {
+        "id": "LR004-Roche Bobois",
+        "name": "LOVE-3/4-seat curved sofa",
+        "price": 9000,
+        "image": [
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729614549/4_jji50p.jpg",
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729614548/1_fs5t3y.jpg",
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729614547/5_yqubbb.jpg",
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729614546/2_tkhcqf.jpg",
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729614545/3_gf32mm.jpg"
+        ],
+        "video": "https://res.cloudinary.com/dpwlgnop6/video/upload/v1729614662/Love_Ambiance_16-9_vq02og.mp4",
+        "desc": "In the spirit of the seventies, Sacha Lakic has designed Love, a contemporary nod to that era. The elliptical shape of the Love sofa evokes reassuring, relaxing “peace & love” lines, and the combination of materials - smooth wool and foamy relief fabric - creates a sensual contrast between structure and seat.",
+        "rate": 4.9,
+        "brand": "Roche Bobois",
+        "type": "Curved Sofa",
+        "offer": 10
+    },
+    {
+        "id": "LR005-Roche Bobois",
+        "name": "BAMBOO MOOD-cocktail table",
+        "price": 2000,
+        "image": [
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729614553/1_nyc3hm.jpg",
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729614552/4_p7pa53.jpg",
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729614551/3_yyjnwg.jpg",
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729614551/5_qaexuw.jpg",
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729614550/2_vls1le.jpg"
+        ],
+        "video": "https://res.cloudinary.com/dpwlgnop6/video/upload/v1729614672/Bamboo-Mood_Ambiance_16-9_o85dvb.mp4",
+        "desc": "In naming this collection “Bamboo Mood”, the designer wanted to weave a metaphor around bamboo, a powerful symbol of the key values of Chinese culture: it represents integrity, flexibility, simplicity and harmony. Jiang Qiong Er reinterprets these values in a poetic, often quirky and always elegant way, creating this complete collection with a sofa, screen, console, cocktail tables, rugs and ceramics. The cocktail tables gracefully evoke a bamboo stem, with its highlighted gradient vein delicately rhythmizing the slanted line. Available in a monochrome lacquered version or with a wood-look tabletop, available in a wide range of colors.",
+        "rate": 4.9,
+        "brand": "Roche Bobois",
+        "type": "Cocktail Table",
+        "offer": 5
+    },
+    {
+        "id": "LR006-Roche Bobois",
+        "name": "HUBBA-Armchair",
+        "price": 3500,
+        "image": [
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729614552/2_plczt0.jpg",
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729614551/1_xt9w1g.jpg",
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729614551/3_genrou.jpg",
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729614550/4_twpmf9.jpg",
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729614546/5_wwnd35.jpg"
+        ],
+        "video": "https://res.cloudinary.com/dpwlgnop6/video/upload/v1729614673/Celta_Ambiance_16-9_ptngdf.mp4",
+        "desc": "Ukrainian designer Andrii Kovalskyi has imagined the Hubba armchair as a perfect invitation to relax, with its elegantly uncluttered design and boldly rounded shapes seemingly draped in a single piece of fabric. The accompanying ossicle-shaped footstool enriches the experience of comfort while adding a playful dimension.",
+        "rate": 5,
+        "brand": "Roche Bobois",
+        "type": "Armchair",
+        "offer": 10
+    },
+    {
+        "id": "LR007-IKEA",
+        "name": "HÅRSLINGA / MOLNART",
+        "price": 39.98,
+        "image": [
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729614542/4_iocp3l.avif",
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729614539/3_szzevj.avif",
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729614536/1_vfuf2d.avif",
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729614535/2_xsidk2.avif"
+        ],
+        "video": null,
+        "desc": "This neat floor lamp has an energy-saving LED bulb with a spiral-shaped filament that spreads a soft light through the smoke-coloured glass. And you can easily rotate and move the light as needed.",
+        "rate": 4.8,
+        "brand": "IKEA",
+        "type": "Floor lamp with LED bulb",
+        "offer": 5
+    },
+    {
+        "id": "LR008-IKEA",
+        "name": "KONSTFULL",
+        "price": "19.99",
+        "image": [
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729614542/2_dxdqyj.avif",
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729614541/4_jf8blw.avif",
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729614539/5_wiplsb.webp",
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729614535/3_n9fbpe.avif",
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729614535/1_in8gb4.avif"
+        ],
+        "video": "https://res.cloudinary.com/dpwlgnop6/video/upload/v1729614559/KONSTFULL_vase_green-brown_16_cm_6_-_-_IKEA_CA_f9igth.webm",
+        "desc": "The KONSTFULL series is designed by Ilse Crawford to beautifully bring out the best in flowers, each day. Created in mouth-blown leftover glass – with clean shapes and tactile materials to suit all decors.",
+        "rate": "",
+        "brand": "IKEA",
+        "type": "Vase",
+        "offer": null
+    },
+    {
+        "id": "LR009-IKEA",
+        "name": "IDANÄS",
+        "price": 799,
+        "image": [
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729614542/2_ly3fcs.avif",
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729614541/4_my12yx.avif",
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729614540/3_submrz.webp",
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729614540/5_aooepn.avif",
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729614540/3_gihvz8.avif",
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729614537/1_aaddsg.avif"
+        ],
+        "video": "https://res.cloudinary.com/dpwlgnop6/video/upload/v1729614561/IDAN%C3%84S_high_cabinet_w_gls-drs_and_1_drawer_dark_brown_stained_81x39x211_cm_317-8x153-8x831-8-_-_IKEA_CA_pdbfra.webm",
+        "desc": "IDANÄS series combines timeless design with modern functionality. Display your finest items behind glass doors and keep the others close at hand. Carefully designed details in solid wood and profiled edges give the furniture a timeless and genuine feel.",
+        "rate": 4.5,
+        "brand": "IKEA",
+        "type": "High cabinet w gls-drs and 1 drawer",
+        "offer": null
+    }
+]
