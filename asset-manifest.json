@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/hudsonfurniture/static/css/main.e2126890.css",
+    "main.js": "/hudsonfurniture/static/js/main.3de3e239.js",
+    "static/js/453.15d5dd85.chunk.js": "/hudsonfurniture/static/js/453.15d5dd85.chunk.js",
+    "index.html": "/hudsonfurniture/index.html",
+    "main.e2126890.css.map": "/hudsonfurniture/static/css/main.e2126890.css.map",
+    "main.3de3e239.js.map": "/hudsonfurniture/static/js/main.3de3e239.js.map",
+    "453.15d5dd85.chunk.js.map": "/hudsonfurniture/static/js/453.15d5dd85.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e2126890.css",
+    "static/js/main.3de3e239.js"
+  ]
+}
