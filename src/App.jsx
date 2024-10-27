@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as HashRouter,Router, Routes, Route } from 'react-router-dom';
 import Homepage from './page/Homepage';
 import './App.css';
 import Header from './RoutingHeading/Header'
@@ -64,11 +64,11 @@ function App() {
   };
 
   return (
-    <Router>
+    <HashRouter>
       <div className="App">
         <Header />
         <Routes>
-          <Route path='/' element={<Homepage />} />
+          <Route path='/project2' element={<Homepage />} />
           <Route path='/home' element={<Homepage />} />
           <Route path='/livingroom' element={<LivingRoom />}/>
           <Route path='/contact' element={<ContactUs />} />
@@ -96,7 +96,7 @@ function App() {
           )}
         </>
       </div>
-    </Router>
+    </HashRouter>
   );
 }
 const styles = {
