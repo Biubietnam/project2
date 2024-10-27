@@ -39,7 +39,6 @@ Before you begin, ensure you have the following installed on your machine:
 - **Node.js** (v14 or later)
 - **npm** (Node package manager)
 
-- 
 1. Clone the repository:
    ```bash
    git clone https://github.com/Biubietnam/project2.git
