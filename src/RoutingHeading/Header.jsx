@@ -6,7 +6,7 @@ function Header() {
     const url = process.env.PUBLIC_URL;
     const storelogo = url +'/img/storelogo.png'
     const backhome = () => {
-        navigate("/project2")
+        navigate("/")
     }
 
     return (
@@ -29,18 +29,18 @@ function Header() {
                                                 All furniture
                                             </a>
                                             <ul className="dropdown-menu">
-                                                <li><a className="dropdown-item" href="/project2/livingroom">Living room</a></li>
-                                                <li><a className="dropdown-item" href="/project2/bedroom">Bedroom</a></li>
-                                                <li><a className="dropdown-item" href="/project2/diningroom">Dining room</a></li>
-                                                <li><a className="dropdown-item" href="/project2/outdoor">Outdoor</a></li>
-                                                <li><a className="dropdown-item" href="/project2/homeoffice">Home Office</a></li>
+                                                <li><a className="dropdown-item" href="/livingroom">Living room</a></li>
+                                                <li><a className="dropdown-item" href="/bedroom">Bedroom</a></li>
+                                                <li><a className="dropdown-item" href="/diningroom">Dining room</a></li>
+                                                <li><a className="dropdown-item" href="/outdoor">Outdoor</a></li>
+                                                <li><a className="dropdown-item" href="/homeoffice">Home Office</a></li>
 
                                             </ul>
                                         </li>
-                                        <li className="nav-item"><a className="nav-link" href="/project2/gallery">Gallery</a></li>
-                                        <li className="nav-item"><a className="nav-link" href="/project2/about">About us</a></li>
-                                        <li className="nav-item"><a className="nav-link" href="/project2/contact">Contact Us</a></li>
-                                        <li className="nav-item"><a className="nav-link" href="/project2/faq">FAQ</a></li>
+                                        <li className="nav-item"><a className="nav-link" href="/gallery">Gallery</a></li>
+                                        <li className="nav-item"><a className="nav-link" href="/about">About us</a></li>
+                                        <li className="nav-item"><a className="nav-link" href="/contact">Contact Us</a></li>
+                                        <li className="nav-item"><a className="nav-link" href="/faq">FAQ</a></li>
                                     </ul>
                                 </div>
                             </nav>

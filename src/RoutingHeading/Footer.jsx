@@ -35,23 +35,23 @@ function Footer() {
           <div className="col-md-4 mb-3 mb-md-0">
             <h5>Site Map</h5>
             <ul className="list-unstyled">
-              <li><a href="/project2" className="text-white">Home</a></li>
-              <li><a href="/project2/gallery" className="text-white">Gallery</a></li>
-              <li><a href="/project2/contact" className="text-white">Contact Us</a></li>
-              <li><a href="/project2/faq" className="text-white">FAQ</a></li>
+              <li><a href="/" className="text-white">Home</a></li>
+              <li><a href="/gallery" className="text-white">Gallery</a></li>
+              <li><a href="/contact" className="text-white">Contact Us</a></li>
+              <li><a href="/faq" className="text-white">FAQ</a></li>
               <li className="dropdown">
                 <a href="/" className="text-white dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Products
                 </a>
                 <ul className="dropdown-menu">
-                  <li><a href="/project2/livingroom" className="dropdown-item">Living Room</a></li>
-                  <li><a href="/project2/bedroom" className="dropdown-item">Bedroom</a></li>
-                  <li><a href="/project2/homeoffice" className="dropdown-item">Home Office</a></li>
-                  <li><a href="/project2/outdoor" className="dropdown-item">Outdoor</a></li>
-                  <li><a href="/project2/diningroom" className="dropdown-item">Dining Room</a></li>
+                  <li><a href="/livingroom" className="dropdown-item">Living Room</a></li>
+                  <li><a href="/bedroom" className="dropdown-item">Bedroom</a></li>
+                  <li><a href="/homeoffice" className="dropdown-item">Home Office</a></li>
+                  <li><a href="/outdoor" className="dropdown-item">Outdoor</a></li>
+                  <li><a href="/diningroom" className="dropdown-item">Dining Room</a></li>
                 </ul>
               </li>
-              <li><a href="/project2/about" className="text-white">About us</a></li>
+              <li><a href="/about" className="text-white">About us</a></li>
             </ul>
           </div>
           <div className="col-md-4 mb-3 mb-md-0">

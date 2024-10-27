@@ -11,7 +11,7 @@ function Homepage() {
     const Outdoor = url + "/img/outdoor.png"
     const navigate = useNavigate();
     const tolivingpage= (toweb)=> {
-        navigate("/project2/"+toweb)
+        navigate("/"+toweb)
     }
     return (
         <div className="container-fluid p-0">
