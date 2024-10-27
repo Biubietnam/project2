@@ -1,4 +1,4 @@
-import { BrowserRouter as HashRouter,Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Homepage from './page/Homepage';
 import './App.css';
 import Header from './RoutingHeading/Header'
@@ -64,39 +64,38 @@ function App() {
   };
 
   return (
-    <BrowserRouter>
-      <div className="App">
-        <Header />
-        <Routes>
-          <Route path='/' element={<Homepage />} />
-          <Route path='/home' element={<Homepage />} />
-          <Route path='/livingroom' element={<LivingRoom />}/>
-          <Route path='/contact' element={<ContactUs />} />
-          <Route path='/outdoor' element={<Outdoor />} />
-          <Route path='/bedroom' element={<BedRoom />} />
-          <Route path='/homeoffice' element={<Homeoffice/>}/>
-          <Route path='/diningroom' element={<DiningRoom/>}/>
-          <Route path='/about' element={<AboutUs/>}/>
-          <Route path='/faq' element={<FaqPage/>}/>
-          <Route path='gallery' element={<Gallery/>}/>
-        </Routes>
-        <Footer />
-        <div id="counter" className='counter'>
-          <VisibilityIcon style={{ fontSize: '1.2em' }} /> {visitCount}
-        </div>
-        <>
-          {showButton && ( // Conditionally render the button based on showButton state
-            <button
-            className='scrollup'
-              onClick={scrollToTop}
-              style={styles.backToTopBtn}>
-              <ArrowDropUpIcon />  {/* Icon for the button */}
+<Router>
+  <div className="App">
+    <Header />
+    <Routes>
+      <Route path="/" element={<Homepage />} />
+      <Route path="/home" element={<Homepage />} />
+      <Route path="/livingroom" element={<LivingRoom />} />
+      <Route path="/contact" element={<ContactUs />} />
+      <Route path="/outdoor" element={<Outdoor />} />
+      <Route path="/bedroom" element={<BedRoom />} />
+      <Route path="/homeoffice" element={<Homeoffice />} />
+      <Route path="/diningroom" element={<DiningRoom />} />
+      <Route path="/about" element={<AboutUs />} />
+      <Route path="/faq" element={<FaqPage />} />
+      <Route path="/gallery" element={<Gallery />} />
+    </Routes>
+    <Footer />
+    <div id="counter" className="counter">
+      <VisibilityIcon style={{ fontSize: '1.2em' }} /> {visitCount}
+    </div>
+    {showButton && (
+      <button
+        className="scrollup"
+        onClick={scrollToTop}
+        style={styles.backToTopBtn}
+      >
+        <ArrowDropUpIcon />
+      </button>
+    )}
+  </div>
+</Router>
 
-            </button>
-          )}
-        </>
-      </div>
-    </BrowserRouter >
   );
 }
 const styles = {
