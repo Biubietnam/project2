@@ -1,6 +1,5 @@
-import React from 'react';
+import React, {useState, useEffect, useRef} from 'react';
 import { useNavigate } from 'react-router-dom';
-
 function Header() {
 
     const navigate = useNavigate();
@@ -9,6 +8,7 @@ function Header() {
     const backhome = () => {
         navigate("/")
     }
+
     return (
         <div className="container-fluid p-0">
             <header className="bg-info py-3">
@@ -30,10 +30,10 @@ function Header() {
                                             </a>
                                             <ul className="dropdown-menu">
                                                 <li><a className="dropdown-item" href="/livingroom">Living room</a></li>
-                                                <li><a className="dropdown-item" href="#">Bedroom</a></li>
-                                                <li><a className="dropdown-item" href="#">Dining room</a></li>
-                                                <li><a className="dropdown-item" href="#">Outdoor</a></li>
-                                                <li><a className="dropdown-item" href="#">Home Office</a></li>
+                                                <li><a className="dropdown-item" href="/bedroom">Bedroom</a></li>
+                                                <li><a className="dropdown-item" href="/diningroom">Dining room</a></li>
+                                                <li><a className="dropdown-item" href="/outdoor">Outdoor</a></li>
+                                                <li><a className="dropdown-item" href="/homeoffice">Home Office</a></li>
 
                                             </ul>
                                         </li>
@@ -47,6 +47,7 @@ function Header() {
                         </div>
                     </div>
                 </div>
+
             </header>
         </div>
     );

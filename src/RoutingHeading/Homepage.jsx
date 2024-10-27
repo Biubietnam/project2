@@ -10,8 +10,8 @@ function Homepage() {
     const BedRoom = url + "/img/bedroom.jpg"
     const Outdoor = url + "/img/outdoor.png"
     const navigate = useNavigate();
-    const tolivingpage= ()=> {
-        navigate("/livingroom")
+    const tolivingpage= (toweb)=> {
+        navigate("/"+toweb)
     }
     return (
         <div className="container-fluid p-0">
@@ -45,7 +45,7 @@ function Homepage() {
             {/* Furniture Categories */}
             <div className="container my-5">
                 <div className="row g-4">
-                    <div className="col-md-9 selection" onClick={tolivingpage}>
+                <div className="col-md-9 selection" onClick={() => tolivingpage("livingroom")}>
                         <div className="card">
                             <img src={LivingRoom} className="card-img-top" alt="Livingroom" draggable="false" />
                             <div className="card-body">
@@ -55,7 +55,7 @@ function Homepage() {
                     </div>
                     <div className="col-md-3 selection" >
                         <div className="card">
-                            <img src={Office} className="card-img-top" alt="Homeoffice" />
+                            <img src={Office} className="card-img-top" alt="Homeoffice" onClick={() => tolivingpage("homeoffice")}/>
                             <div className="card-body">
                                 <h5 className="card-title">Home Office</h5>
                             </div>
@@ -63,7 +63,7 @@ function Homepage() {
                     </div>
                     <div className="col-md-4 selection">
                         <div className="card">
-                            <img src={Outdoor} className="card-img-top" alt="Outdoor" />
+                            <img src={Outdoor} className="card-img-top" alt="Outdoor" onClick={() => tolivingpage("outdoor")}/>
                             <div className="card-body">
                                 <h5 className="card-title">Outdoor</h5>
                             </div>
@@ -71,7 +71,7 @@ function Homepage() {
                     </div>
                     <div className="col-md-4 selection">
                         <div className="card">
-                            <img src={DiningRoom} className="card-img-top" alt="Diningroom" />
+                            <img src={DiningRoom} className="card-img-top" alt="Diningroom" onClick={() => tolivingpage("diningroom")}/>
                             <div className="card-body">
                                 <h5 className="card-title">Dining room</h5>
                             </div>
@@ -79,7 +79,7 @@ function Homepage() {
                     </div>
                     <div className="col-md-4 selection">
                         <div className="card">
-                            <img src={BedRoom} className="card-img-top" alt="Bedroom" />
+                            <img src={BedRoom} className="card-img-top" alt="Bedroom" onClick={() => tolivingpage("bedroom")}/>
                             <div className="card-body">
                                 <h5 className="card-title">Bedroom</h5>
                             </div>

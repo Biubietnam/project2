@@ -144,20 +144,29 @@ img.card-img-top {
   position: relative;
 }
 
-
 .popup-body {
   display: flex;
   align-items: flex-start;
   gap: 20px;
+  flex-wrap: wrap; /* Allows the content to wrap when the container is small */
+  max-height: 80vh; /* Set max height to prevent overflow */
+  overflow-y: auto; /* Enables vertical scrolling if content overflows */
+  padding-right: 10px; /* Adds space for scrollbar */
 }
 
-/* Popup image styling */
 .popup-img {
-  max-width: 50%;
-  height: 60%;
+  max-width: 30%;
+  height: auto; /* Keep the aspect ratio */
   margin: 0;
   opacity: 1;
-  transition: opacity 1.5s ease-in-out;
+  transition: opacity 1.5s ease-in-out, max-width 0.5s ease; /* Smooth resizing */
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+  .popup-img {
+    max-width: 100%; /* Full width when the screen is small */
+  }
 }
 .fade {
   opacity: 0;
@@ -195,4 +204,27 @@ img.card-img-top {
 }
 .tocontact:hover{
   background-color: lightgray;
+}
+.counter {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  background-color: #f1f1f5;
+  padding: 5px 10px;
+  border-radius: 5px;
+  z-index: 500;
+}
+.scrollup{
+  background-color: #0DCAF0;
+  transition: background-color .1s ease-in-out;
+}
+.scrollup:hover{
+  background-color: gray !important;
+  opacity: 0.8;
+
+}
+
+.carousel-item
+{
+  width: 100%;
 }

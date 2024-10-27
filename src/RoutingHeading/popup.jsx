@@ -1,10 +1,16 @@
-import { green } from '@mui/material/colors';
-import React, { useState, useEffect } from 'react';
 
+import React, { useState, useEffect } from 'react';
+import Ratings from './Rating'
 function PopupWindow({ product, closePopup }) {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const [isFading, setIsFading] = useState(false); // State to track fading
-
+  const [showrating, setRating] = useState(false);
+  const Openrating = () => {
+    setRating(true);
+  };
+  const CloseRaiting = () => {
+    setRating(false);
+  }
   useEffect(() => {
     const imageChangeInterval = setInterval(() => {
       setIsFading(true); // Start fade-out
@@ -27,9 +33,9 @@ function PopupWindow({ product, closePopup }) {
         <button type="button" className="btn-close popup-close" aria-label="Close" onClick={closePopup}></button>
         <div className="popup-body">
           <img
-            src={product.image[currentImageIndex]} // Dynamically display current image
+            src={product.image[currentImageIndex]}
             alt={product.name}
-            className={`popup-img ${isFading ? 'fade' : ''}`} // Add fade class conditionally
+            className={`popup-img ${isFading ? 'fade' : ''}`}
           />
           <div className="popup-text">
             <h3>{product.name}</h3>
@@ -39,10 +45,15 @@ function PopupWindow({ product, closePopup }) {
             <p>{product.desc}</p>
             <p><b>Rating:</b> <span style={{ color: product.rate <= 2 ? 'red' : 'green' }}>
               {product.rate}
-            </span> &#x2605; <a className='tocontact' href="/contact">Contact Us</a></p>
+            </span> &#x2605; <a className='tocontact' onClick={()=> Openrating()} style={{cursor: 'pointer'}}>Rating This Product</a></p>
           </div>
         </div>
       </div>
+      {showrating && (
+        <Ratings
+          CloseRaiting={CloseRaiting}
+        />
+      )}
     </div>
 
   );

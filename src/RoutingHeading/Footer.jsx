@@ -61,6 +61,7 @@ function Footer() {
                         </div>
                     </div>
                 </div>
+                <iframe width="1252" height="704" src="https://www.youtube.com/embed/H8_W_MMej00" title="The best IKEA store so far? Cosy tour | New in, outdoor furniture, showrooms &amp; market hall" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </footer>
 
         </div>

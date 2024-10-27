@@ -2,69 +2,171 @@
 
 [
     {
-        "id": "DR001",
-        "name": "Chair",
-        "price": 5004,
-        "image": "URL",
-        "desc": "N/A",
-        "rate": 4,
+        "id": "DR001-Ashley",
+        "name": "Realyn Oval Extendable Dining Table",
+        "price": 49.99,
+        "image": [
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729613047/3_mulrpi.webp",
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729613046/1_u3h8z4.webp",
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729613045/5_vcaacc.webp",
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729613033/4_hs8yxg.webp",
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729613033/2_pj3hqz.webp"
+        ],
+        "video": "https://www.youtube.com/embed/wYCQ4nygQ2s",
+        "desc": "Bon appétit. The Realyn dining room extension table has all the right ingredients for a French country-inspired feast for the eyes. Drop-in leaf allows you to transform an intimate round dining table into a gracious oval dining table that comfortably seats six. Antiqued two-tone aesthetic pairs a chipped white with a distressed wood finished top for a double serving of charm.",
+        "rate": 4.5,
         "brand": "Ashley",
-        "type": "LONG",
-        "offer": 5
+        "type": "Dining Tables",
+        "offer": 15
     },
     {
-        "id": "DR002",
-        "name": "Chair2",
-        "price": 50022,
-        "image": "URL",
-        "desc": "N/A",
-        "rate": 5,
+        "id": "DR002-Ashley",
+        "name": "Dining Storage Cabinets",
+        "price": 99.99,
+        "image": [
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729613046/1_oddqz3.webp",
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729613043/2_gp70ux.webp",
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729613043/5_stiysg.webp",
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729613043/4_rusllz.webp",
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729613039/3_aaufnf.webp"
+        ],
+        "video": "https://www.youtube.com/embed/wYCQ4nygQ2s",
+        "desc": "Serve up a French country-inspired feast for the eyes with the Realyn dining room server. Unique elements include cabinet storage beautified with decorative fretwork over mirrored glass and a doubly charming two-tone aesthetic pairing a chipped white with a distressed wood finished top.",
+        "rate": 4.8,
         "brand": "Ashley",
-        "type": "LONG",
-        "offer": 0
-    },   
-     {
-        "id": "DR003",
-        "name": "Chair324324",
-        "price": 50045,
-        "image": "URL",
-        "desc": "N/A",
-        "rate": 4,
-        "brand": "Aaron",
-        "type": "LONG",
-        "offer": 5
+        "type": "Dining Storage Cabinets",
+        "offer": null
     },
     {
-        "id": "DR004",
-        "name": "Chair2234234",
-        "price": 503402,
-        "image": "URL",
-        "desc": "N/A",
+        "id": "DR003-Ashley",
+        "name": "Southern Enterprises Furniture Dresden Bar Cart",
+        "price": 204.99,
+        "image": [
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729613044/4_rzvt5v.webp",
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729613041/1_ielgqg.webp",
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729613040/3_j4kcat.webp",
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729613039/2_nm0v3v.webp",
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729613037/5_sbttni.webp"
+        ],
+        "video": "https://www.youtube.com/embed/mzuq4rhb3wQ",
+        "desc": "Conjure a scene a la Gatsby with this elegant bar cart. Sleek, linear architecture contrasts with the luxurious metallic goldtone finish, high-shine mirrored shelf and glossy glass tabletop. X-frame sides give a nod to the lavish lifestyles of the '20s, while two open shelves provide plenty of space for your martinis, stemware and garnishes. Designed to keep the party on a roll, this cart includes two safety casters that lock into place.",
+        "rate": 5.0,
+        "brand": "Ashley",
+        "type": "Bar Furniture",
+        "offer": 20
+    },
+    {
+        "id": "DR004-Roche Bobois",
+        "name": "LIFT Daquacryl®-sideboard -bar",
+        "price": 7000,
+        "image": [
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729613044/4_kxe6jh.jpg",
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729613041/5_dpry00.jpg",
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729613040/3_zglflo.jpg",
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729613040/1_vhoywk.jpg",
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729613037/2_rleexx.jpg"
+        ],
+        "video": "https://res.cloudinary.com/dpwlgnop6/video/upload/v1729613191/LIFT_Daquacryl_sideboard_-bar_-_Roche_Bobois_gib1ve.mp4",
+        "desc": "Designed by Sacha Lakic, this piece features a bold, glossy PMMA façade and a very unique storage unit. The interior is mounted on electric cylinders so it lifts up to your height to access it. There are different options available for the interior, including a Bar version. This piece was designed by Sacha Lakic and features a very unique function: the storage unit is mounted on electric cylinders. Instead of you stooping down to reach into it, it comes up to you. The facade is made of one smooth uninterrupted piece of thermoformed PMMA with glossy finish. Several interior layouts are available for this design, including a Bar version.",
         "rate": 5,
-        "brand": "Aaron",
-        "type": "LONG",
-        "offer": 0
+        "brand": "Roche Bobois",
+        "type": "Sideboard-Bar",
+        "offer": null
     },
     {
-        "id": "DR005",
-        "name": "Chair34234234",
-        "price": 53400,
-        "image": "URL",
-        "desc": "N/A",
-        "rate": 4,
-        "brand": "Row",
-        "type": "LONG",
-        "offer": 5
+        "id": "DR005-Roche Bobois",
+        "name": "SPEED UP BOIS-Sideboard, 2 doors",
+        "price": 6000,
+        "image": [
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729613046/1_shpfjv.jpg",
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729613045/5_qnkpxi.jpg",
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729613043/4_pqcioz.jpg",
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729613042/3_yhfnui.jpg",
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729613042/2_hmxhk2.jpg"
+        ],
+        "video": "https://res.cloudinary.com/dpwlgnop6/video/upload/v1729615187/clideo_editor_05e666189b1c4f1781d8cca36d4f3fc7_qdjetu.mp4",
+        "desc": "A wooden version of the iconic Speed Up buffet designed by Sacha Lakic in 2005: this time, the wave that defines its facade is expressed through a series of 64 unique solid oak slats, all assembled by hand on a Black or White structure. A rhythm in 3 dimensions!",
+        "rate": 4.8,
+        "brand": "Roche Bobois",
+        "type": "Sideboard, 2 doors",
+        "offer": null
     },
     {
-        "id": "DR006",
-        "name": "Chair2325235",
-        "price": 503432502,
-        "image": "URL",
-        "desc": "N/A",
+        "id": "DR006-Roche Bobois",
+        "name": "WHISPER-Sideboard 4 doors",
+        "price": 7500,
+        "image": [
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729613048/3_rvcjpm.jpg",
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729613047/4_gvx5m4.jpg",
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729613047/2_npn11r.jpg",
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729613047/1_ih1qjm.jpg",
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729613046/5_x1wuql.jpg"
+        ],
+        "video": "https://res.cloudinary.com/dpwlgnop6/video/upload/v1729613122/Whisper_Ambiance_16-9_iz6wiv.mp4",
+        "desc": "The Whisper sideboard designed by Sacha Lakic features a smooth, rounded line without any sharp angles. The only protrusion is the flowing line, reminiscent of a wave, which forms the handles of the doors, highlighted by a delicate line of light.",
         "rate": 5,
-        "brand": "Row",
-        "type": "LONG",
-        "offer": 0
+        "brand": "Roche Bobois",
+        "type": "Ample Storage",
+        "offer": null
+    },
+    {
+        "id": "DR007-IKEA",
+        "name": "SKOGSTA",
+        "price": 589,
+        "image": [
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729613041/4_agtvhr.avif",
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729613039/6_qmddbe.avif",
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729613039/2_accbfa.avif",
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729613038/5_ykal9u.webp",
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729613038/3_kursxb.webp",
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729613034/8_qiknem.avif",
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729613034/1_nvwpxy.avif",
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729613033/7_xiaogn.avif"
+        ],
+        "video": null,
+        "desc": "Every table is unique, with varying grain pattern and natural color shifts that are part of the charm of wood.",
+        "rate": 4.8,
+        "brand": "IKEA",
+        "type": "Dining table",
+        "offer": null
+    },
+    {
+        "id": "DR008-IKEA",
+        "name": "KAPPELAND / HEMMA",
+        "price": 69.99,
+        "image": [
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729613042/5_ae9xl1.avif",
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729613037/7_bjye1o.avif",
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729613036/6_poejki.avif",
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729613035/4_xpzje9.avif",
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729613035/8_qa6qcd.avif",
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729613034/3_aeri99.avif",
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729613034/1_dmlmkn.avif",
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729613033/2_rb3gox.avif"
+        ],
+        "video": null,
+        "desc": "Designer Mikael Axelsson has created this lamp shade in rattan. With its airy herringbone pattern, it spreads a decorative light that gives the room a warm and welcoming feel. Handmade and unique.",
+        "rate": 4.7,
+        "brand": "IKEA",
+        "type": "Pendant lamp",
+        "offer": null
+    },
+    {
+        "id": "DR009-IKEA",
+        "name": "HEMNES",
+        "price": 599,
+        "image": [
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729613044/4_iskttl.webp",
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729613040/5_wspjfc.avif",
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729613040/2_dilngk.avif",
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729613036/3_wvv7zu.avif",
+            "https://res.cloudinary.com/dpwlgnop6/image/upload/v1729613036/1_i9fa1z.avif"
+        ],
+        "video": null,
+        "desc": "Sustainable beauty from sustainably-sourced solid pine, a natural and renewable material that gets more beautiful with each passing year. Like it? Combine with other products in the HEMNES series.",
+        "rate": 4.4,
+        "brand": "IKEA",
+        "type": "Glass-door cabinet with 3 drawers",
+        "offer": null
     }
 ]

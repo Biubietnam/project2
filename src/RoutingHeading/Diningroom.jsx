@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import data from '../data/LivingRoomData.json';
+import data from '../data/DiningRoomData.json';
 import PopupWindow from './popup';
 
-function LivingRoom() {
+function DiningRoom() {
   const [products] = useState(data);
   const [searchTerm, setSearchTerm] = useState('');
   const [showPopup, setShowPopup] = useState(false);
@@ -120,4 +120,4 @@ function LivingRoom() {
   );
 }
 
-export default LivingRoom;
+export default DiningRoom;
