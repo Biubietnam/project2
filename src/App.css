@@ -36,3 +36,242 @@
     transform: rotate(360deg);
   }
 }
+.storediv:hover{
+  cursor: pointer !important;
+}
+.timer{
+  width: 200% !important;
+}
+.selection:hover{
+  cursor: pointer;
+}
+.card img {
+  opacity: 0.3;
+  transition: opacity 2s ease;
+  -webkit-user-drag: none;
+}
+
+.card:hover img {
+  opacity: 1;
+}
+
+.card {
+  transition: transform 0.3s ease, z-index 0s 0.3s; 
+  z-index: 2;
+  height: 100%;
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+img.card-img-top {
+  height: 300px; /* Or any desired fixed height */
+  object-fit: cover;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  z-index: 100;
+  transition: transform 0.3s ease, z-index 0s;
+}
+.img-container{
+  height: 30vh;
+  width: 50vw;
+  margin: 0 auto;
+  margin-top: 1vw;
+}
+.img-container div{
+  height: 100%;
+}
+.img-container img{
+  height: 100%;
+  object-fit: cover;
+  
+}
+
+.carousel-control-prev{
+  height: 30vh;
+  margin-left: 24.45vw;
+  background-color: gray;
+  opacity: 0 !important;
+  background-image: linear-gradient(to right,black, gray) !important;
+  transition: opacity 0.3s linear !important;
+  height: 60% !important;
+}
+.carousel-control-next
+{
+  height: 30vh;
+  margin-right: 24.45vw;
+  opacity: 0 !important;
+  background-color: gray;
+  background-image: linear-gradient(to left,black, gray) !important;
+  transition: opacity 0.3s linear !important;  
+  height: 60% !important;
+}
+.carousel-control-prev span{
+  color: black !important;
+}
+.carousel-control-next:hover,
+.carousel-control-prev:hover{
+  opacity: 0.2 !important;
+}
+
+
+
+
+
+
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.popup-content {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: left;
+  width: 90%;
+  position: relative;
+}
+
+.popup-body {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  flex-wrap: wrap; /* Allows the content to wrap when the container is small */
+  max-height: 80vh; /* Set max height to prevent overflow */
+  overflow-y: auto; /* Enables vertical scrolling if content overflows */
+  padding-right: 10px; /* Adds space for scrollbar */
+}
+
+.popup-img {
+  max-width: 30%;
+  height: auto; /* Keep the aspect ratio */
+  margin: 0;
+  opacity: 1;
+  transition: opacity 1.5s ease-in-out, max-width 0.5s ease; /* Smooth resizing */
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+  .popup-img {
+    max-width: 100%; /* Full width when the screen is small */
+  }
+}
+.fade {
+  opacity: 0;
+}
+.popup-text {
+  flex: 1;
+}
+
+/* Close button */
+.popup-close {
+  position: absolute;
+  top: 10px;
+  right: 15px; /* Keeps the element 15px from the right */
+}
+
+
+.productbox {
+  position: relative;
+}
+
+.hot-logo-icon {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  width: 50px;
+  height: auto;
+  z-index: 10;
+  opacity: 1 !important;
+}
+
+.tocontact{
+  color: red;
+  text-decoration: none;
+  transition: background-color .5s ease-in-out;
+}
+.tocontact:hover{
+  background-color: lightgray;
+}
+.counter {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  background-color: #f1f1f5;
+  padding: 5px 10px;
+  border-radius: 5px;
+  z-index: 500;
+}
+.scrollup{
+  background-color: #0DCAF0;
+  transition: background-color .1s ease-in-out;
+}
+.scrollup:hover{
+  background-color: gray !important;
+  opacity: 0.8;
+
+}
+
+.carousel-item
+{
+  width: 100%;
+  height: 60% !important;
+}
+/* Contact Form */
+.min-vh-100 {
+  min-height: 100vh;
+}
+.custom-card {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+}
+@media (max-width: 767.98px) {
+  .custom-card {
+      border-radius: 0;
+  }
+}
+
+
+
+/*Scrolling Frame for Footer*/
+.timer {
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+  width: 100%;
+}
+
+.scrolling-ticker {
+  display: inline-block;
+  animation: scroll 10s linear infinite;
+  position: absolute;
+}
+
+.ticker-item {
+  margin-right: 50% !important;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+
+
