@@ -33,7 +33,7 @@ const AboutUs = () => {
           <div className="row mb-5">
             <div className="col-12 col-md-6 order-md-2 mb-4 mb-md-0">
               <img 
-                src="/placeholder.svg?height=300&width=400" 
+                src="https://i.pinimg.com/564x/e1/2f/24/e12f24d02e355676bb14ab04ba628594.jpg" 
                 alt="Our craftsmanship" 
                 className="img-fluid rounded shadow"
               />
