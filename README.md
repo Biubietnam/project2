@@ -2,7 +2,7 @@
 ### Class: T1.2406.E1  
 **Center Name**: ACE-HCMC-2-FPT  
 
-## Project Title: Incredible Bridges  
+## Project Title: Hudson Furnishings
 
 ## Overview
 **__Hudson Furnishings__** is your one-stop destination for all home furniture needs, featuring a diverse range of products, including custom orders from Palliser. The website highlights stylish furniture collections and offers an intuitive shopping experience, making it easy for customers to find and design their ideal living spaces.
