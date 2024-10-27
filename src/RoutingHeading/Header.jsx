@@ -1,12 +1,13 @@
-import React, {useState, useEffect, useRef} from 'react';
-import { useNavigate } from 'react-router-dom';
-function Header() {
+import React, { useState, useEffect, useRef } from 'react';
+import { useNavigate, Link } from 'react-router-dom';
 
+function Header() {
     const navigate = useNavigate();
     const url = process.env.PUBLIC_URL;
-    const storelogo = url +'/img/storelogo.png'
+    const storelogo = url + '/img/storelogo.png';
+
     const backhome = () => {
-        navigate("/")
+        navigate("/");
     }
 
     return (
@@ -15,7 +16,7 @@ function Header() {
                 <div className="container">
                     <div className="row align-items-center">
                         <div className="col-md-3 storediv">
-                            <img src={storelogo} alt="Hudson Furnishings Log" className="img-fluid storelogo" onClick={backhome}/>
+                            <img src={storelogo} alt="Hudson Furnishings Logo" className="img-fluid storelogo" onClick={backhome}/>
                         </div>
                         <div className="col-md-9">
                             <nav className="navbar navbar-expand-lg navbar-light">
@@ -29,25 +30,23 @@ function Header() {
                                                 All furniture
                                             </a>
                                             <ul className="dropdown-menu">
-                                                <li><a className="dropdown-item" href="/livingroom">Living room</a></li>
-                                                <li><a className="dropdown-item" href="/bedroom">Bedroom</a></li>
-                                                <li><a className="dropdown-item" href="/diningroom">Dining room</a></li>
-                                                <li><a className="dropdown-item" href="/outdoor">Outdoor</a></li>
-                                                <li><a className="dropdown-item" href="/homeoffice">Home Office</a></li>
-
+                                                <li><Link className="dropdown-item" to="/livingroom">Living room</Link></li>
+                                                <li><Link className="dropdown-item" to="/bedroom">Bedroom</Link></li>
+                                                <li><Link className="dropdown-item" to="/diningroom">Dining room</Link></li>
+                                                <li><Link className="dropdown-item" to="/outdoor">Outdoor</Link></li>
+                                                <li><Link className="dropdown-item" to="/homeoffice">Home Office</Link></li>
                                             </ul>
                                         </li>
-                                        <li className="nav-item"><a className="nav-link" href="/gallery">Gallery</a></li>
-                                        <li className="nav-item"><a className="nav-link" href="/about">About us</a></li>
-                                        <li className="nav-item"><a className="nav-link" href="/contact">Contact Us</a></li>
-                                        <li className="nav-item"><a className="nav-link" href="/faq">FAQ</a></li>
+                                        <li className="nav-item"><Link className="nav-link" to="/gallery">Gallery</Link></li>
+                                        <li className="nav-item"><Link className="nav-link" to="/about">About us</Link></li>
+                                        <li className="nav-item"><Link className="nav-link" to="/contact">Contact Us</Link></li>
+                                        <li className="nav-item"><Link className="nav-link" to="/faq">FAQ</Link></li>
                                     </ul>
                                 </div>
                             </nav>
                         </div>
                     </div>
                 </div>
-
             </header>
         </div>
     );
