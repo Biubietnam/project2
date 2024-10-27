@@ -84,7 +84,9 @@ function FaqPage() {
         .card-title {
           color: #007bff;
           margin-bottom: 0.5rem; 
+          max-height: 5em;
         }
+        
         .card-text {
           transition: max-height 0.3s ease, opacity 0.3s ease
           overflow: hidden;
